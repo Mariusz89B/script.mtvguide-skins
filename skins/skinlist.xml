@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Jesli nowy skin wymaga nowszej wersji m-TVGuide niz starszy to nalezy go dodac jako osobny element na liscie i stary pozostawic -->
+<!-- Jesli nowy skin dziala na tej samej wersji co stary nalezy podmienic wpis -->
+<skinlist>
+<skin name="skin.aeon.nox.silvo"  url="skin.aeon.nox.silvo/skin.aeon.nox.silvo v9.024.zip"  version="9.024" 		mTVGuideVersion = "9.8.2"   icon="skin.aeon.nox.silvo/name.png" 	fanart="skin.aeon.nox.silvo/fanart.jpg"  description="mariusz89b"/>
+<skin name="skin.confluence" 	  url="skin.confluence/skin.confluence v9.002.zip"  		version="9.002" 		mTVGuideVersion = "9.8.2"   icon="skin.confluence/name.png" 		fanart="skin.confluence/fanart.jpg" 	 description="mariusz89b"/>
+<skin name="skin.default" 		  url="skin.default/skin.default v9.048.zip"  			    version="9.048" 		mTVGuideVersion = "9.8.2"   icon="skin.default/name.png" 			fanart="skin.default/fanart.jpg" 		 description="mariusz89b"/>
+<skin name="skin.default.mod" 	  url="skin.default.mod/skin.default.mod v9.000.zip"  		version="9.000" 		mTVGuideVersion = "9.8.3"   icon="skin.default.mod/name.png" 		fanart="skin.default.mod/fanart.jpg" 	 description="kangool"/>
+<skin name="skin.estouchy" 		  url="skin.estouchy/skin.estouchy v9.031.zip"  			version="9.031" 		mTVGuideVersion = "9.8.2"   icon="skin.estouchy/name.png" 			fanart="skin.estouchy/fanart.jpg" 		 description="mariusz89b"/>
+<skin name="skin.estuary.modv2"   url="skin.estuary.modv2/skin.estuary.modv2 v9.023.zip" 	version="9.023" 		mTVGuideVersion = "9.8.2"   icon="skin.estuary.modv2/name.png" 		fanart="skin.estuary.modv2/fanart.jpg" 	 description="mariusz89b"/>
+<skin name="skin.xx" 			  url="skin.xx/skin.xx v9.014.zip" 						    version="9.014" 		mTVGuideVersion = "9.8.2"   icon="skin.xx/name.png" 				fanart="skin.xx/fanart.jpg" 			 description="moras86"/>
+</skinlist>

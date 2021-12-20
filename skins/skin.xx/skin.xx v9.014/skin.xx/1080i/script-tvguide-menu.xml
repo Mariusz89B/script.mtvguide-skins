@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window type="dialog">
+	<allowoverlay>no</allowoverlay>
+	<defaultcontrol always="true">4012</defaultcontrol>
+	<aspectratio>scale</aspectratio>
+	<coordinates>
+		<system>1</system><posx>0</posx><posy>0</posy>
+	</coordinates>
+	<controls>
+	
+		<control type="group">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<animation effect="fade" time="200">WindowOpen</animation>
+			<animation effect="fade" time="200">WindowClose</animation>
+
+		<control type="button" id="1000">
+			<description>Close Window button</description>
+			<posx>1084</posx>
+			<posy>32</posy>
+			<width>96</width>
+			<height>48</height>
+			<onclick>Dialog.Close(VideoOSD,true)</onclick>
+			<onclick>Back</onclick>
+			<texturefocus>DialogCloseButton-focus.png</texturefocus>
+			<texturenofocus>DialogCloseButton.png</texturenofocus>
+			<animation effect="fade" time="200">VisibleChange</animation>
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="button" id="4976">
+			<description>Background</description>
+			<posx>520</posx>
+			<posy>0</posy>
+			<width>1400</width>
+			<height>100%</height>
+			<texturefocus></texturefocus>
+			<texturenofocus></texturenofocus>
+		</control>
+		
+		<control type="button" id="4977">
+			<description>Background</description>
+            <posx>9999</posx>
+            <posy>9999</posy>
+			<onfocus>Action(Back)</onfocus>
+		</control>
+		
+		<control type="button" id="4000">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>0</width>
+			<height>0</height>
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="button" id="4006"> 
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>0</width>
+			<height>0</height>
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="image" id="4100">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>0</width>
+			<height>0</height>
+			<visible>hidden</visible>
+		</control>
+		<control type="label" id="4101">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>0</width>
+			<height>0</height>
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4102">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>0</width>
+			<height>0</height>
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4103">
+			<posx>10</posx>
+			<posy>10</posy>
+			<width>100</width>
+			<height>100</height>
+			<visible>hidden</visible>
+		</control>
+	</control>
+
+		<control type="group">
+			<left>0</left>
+			<top>0</top>
+			<width>1920</width>
+			<height>1080</height>
+			<animation type="WindowOpen" reversible="false">
+				<effect type="slide" start="-480,0" end="0,0" time="375" tween="quadratic" easing="out" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="slide" end="-380,0" start="0,0" time="375" tween="quadratic" easing="out" />
+			</animation>
+		
+		<control type="button" id="1">
+			<left>372</left>
+			<top>390</top>
+			<width>69</width>
+			<height>192</height>
+			<font>-</font>
+			<texturefocus>dialogs/hassub.png</texturefocus>
+			<texturenofocus>dialogs/hassub.png</texturenofocus>
+			<onclick>Action(Close)</onclick>
+			<onfocus>-</onfocus>
+			<onunfocus>-</onunfocus>
+			<onup>-</onup>
+			<ondown>-</ondown>
+		</control>
+		<control type="image">
+			<left>-36</left>
+			<top>0</top>
+			<width>426</width>
+			<height>1080</height>
+			<texture border="0,0,10,0">dialogs/mediabladesub.png</texture>
+		</control>
+		<control type="image">
+			<description>LOGO</description>
+			<left>60</left>
+			<top>30</top>
+			<width>256</width>
+			<height>256</height>
+			<aspectratio>keep</aspectratio>
+			<texture>dialogs/xx_logo.png</texture>
+		</control>
+
+		<control type="label">
+			<posx>75</posx>
+			<posy>470</posy>
+			<width>240</width>
+			<height>200</height>
+			<font>font12</font>
+			<textcolor>FF0084FF</textcolor>
+			<align>center</align>
+			<label>$ADDON[script.mtvguide 30305]</label>
+			<wrapmultiline>true</wrapmultiline>
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="image" id="4100">
+			<description>Channel logo</description>
+			<posx>30</posx>
+			<posy>145</posy>
+			<width>320</width>
+			<height>90</height>
+			<visible>hidden</visible>
+		</control>
+		<control type="label" id="4101">
+			<posx>80</posx>
+			<posy>170</posy>
+			<width>240</width>
+			<height>50</height>
+			<align>center</align>
+			<aligny>center</aligny>
+			<font>font13</font>
+			<textcolor>FFF1F1F1</textcolor>
+		</control>
+		
+		<control type="label">
+			<posy>717</posy>
+			<posx>-15</posx>
+			<width>415</width>
+			<height>100</height>
+			<font>font12</font>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>FF0084ff</textcolor>
+			<label>$ADDON[script.mtvguide 90001]</label>
+		</control>
+		
+			<!-- Set information -->
+		<control type="button" id="4013"> 
+			<posx>-15</posx>
+			<posy>777</posy>
+			<width>415</width>
+			<height>100</height>
+			<onup>4016</onup>
+			<ondown>4012</ondown>
+			<onleft>4977</onleft>
+			<onright>4977</onright>
+			<align>left</align>
+			<aligny>center</aligny>
+			<label>$ADDON[script.mtvguide 90002]</label>
+			<textoffsetx>32</textoffsetx>
+			<texturefocus border="40">dialogs/dialogbutton-fo.png</texturefocus>
+			<texturenofocus border="40">dialogs/dialogbutton-nofo</texturenofocus>
+		</control>
+		
+		<control type="label">
+			<posy>275</posy>
+			<posx>-15</posx>
+			<width>415</width>
+			<height>100</height>
+			<font>font14</font>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>FF0084ff</textcolor>
+			<label>$ADDON[script.mtvguide 30991]</label>
+		</control>
+		
+		
+		
+				<!-- Favorites -->
+		<control type="button" id="4012"> 
+			<posx>-15</posx>
+			<posy>335</posy>
+			<width>415</width>
+			<height>100</height>
+			<onup>4013</onup>
+			<ondown>7004</ondown>
+			<onleft>4977</onleft>
+			<onright>4977</onright>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font13</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<focusedcolor>FFFFFFFF</focusedcolor>
+			<textoffsetx>32</textoffsetx>
+			<label>$ADDON[script.mtvguide 30984]</label>
+			<texturefocus border="40">dialogs/dialogbutton-fo.png</texturefocus>
+			<texturenofocus border="40">dialogs/dialogbutton-nofo</texturenofocus>
+		</control>
+		
+		<control type="label">
+			<posy>475</posy>
+			<posx>-15</posx>
+			<width>415</width>
+			<height>100</height>
+			<font>font14</font>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>FF0084ff</textcolor>
+			<label>EPG</label>
+		</control>
+		
+		<!-- Add channel -->
+		<control type="button" id="4015"> 
+			<posx>-15</posx>
+			<posy>535</posy>
+			<width>415</width>
+			<height>100</height>
+			<onup>7004</onup>
+			<ondown>4016</ondown>
+			<onleft>4977</onleft>
+			<onright>4977</onright>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font13</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<focusedcolor>FFFFFFFF</focusedcolor>
+			<textoffsetx>32</textoffsetx>
+			<label>$ADDON[script.mtvguide 70116]</label>
+			<texturefocus border="40">dialogs/dialogbutton-fo.png</texturefocus>
+			<texturenofocus border="40">dialogs/dialogbutton-nofo</texturenofocus>
+		</control>
+		
+		
+		<!-- Remove channel -->
+		<control type="button" id="4016"> 
+			<posx>-15</posx>
+			<posy>605</posy>
+			<width>415</width>
+			<height>100</height>
+			<onup>4015</onup>
+			<ondown>4013</ondown>
+			<onleft>4977</onleft>
+			<onright>4977</onright>
+			<align>left</align>
+			<aligny>center</aligny>
+			<font>font13</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<focusedcolor>FFFFFFFF</focusedcolor>
+			<textoffsetx>32</textoffsetx>
+			<label>$ADDON[script.mtvguide 70125]</label>
+			<texturefocus border="40">dialogs/dialogbutton-fo.png</texturefocus>
+			<texturenofocus border="40">dialogs/dialogbutton-nofo</texturenofocus>
+		</control>
+		
+		<control type="wraplist" id="7004">
+            <description>Categories</description>
+            <posx>-15</posx>
+			<posy>397</posy>
+            <width>395</width>
+            <height>100</height>
+            <visible>true</visible>
+            <onup>4012</onup>
+			<ondown>4015</ondown>
+            <viewtype label="3D list">wraplist</viewtype>
+            <orientation>horizontal</orientation>
+
+            <itemlayout width="415" height="100">
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>415</width>
+                    <height>100</height>
+                    <visible>false</visible>
+                </control>
+                <control type="label">
+                    <posx>32</posx>
+                    <posy>0</posy>
+                    <width>415</width>
+                    <height>100</height>
+                    <font>font13</font>
+                    <align>left</align>
+                    <aligny>center</aligny>
+                    <textcolor>FFFFFFFF</textcolor>
+                    <selectedcolor>FF12A0C7</selectedcolor>
+					<label>$ADDON[script.mtvguide 30992]: $INFO[ListItem.Label]</label>
+                </control>
+            </itemlayout>
+            <focusedlayout height="100" width="415">
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>415</width>
+                    <height>100</height>
+                    <visible>true</visible>
+                </control>
+                <control type="image">
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>415</width>
+                    <height>100</height>
+                    <texture border="40">dialogs/dialogbutton-fo.png</texture>
+                    <visible>Control.HasFocus(7004)</visible>
+                </control>
+                <control type="label">
+                    <posx>32</posx>
+                    <posy>0</posy>
+                    <width>350</width>
+                    <height>100</height>
+                    <font>font13</font>
+                    <align>left</align>
+                    <aligny>center</aligny>
+                    <textcolor>FFFFFFFF</textcolor>
+                    <selectedcolor>FF12A0C7</selectedcolor>
+                    <label>$ADDON[script.mtvguide 30992]: $INFO[ListItem.Label]</label>
+                </control>
+                <control type="label">
+                    <posx>32</posx>
+                    <posy>0</posy>
+                    <width>350</width>
+                    <height>100</height>
+                    <font>font13</font>
+                    <align>left</align>
+                    <aligny>center</aligny>
+                    <textcolor>FFFFFFFF</textcolor>
+                    <selectedcolor>FF12A0C7</selectedcolor>
+                    <label>$ADDON[script.mtvguide 30992]: $INFO[ListItem.Label]</label>
+                    <visible>Control.HasFocus(7004)</visible>
+                </control>
+            </focusedlayout>
+		</control>
+			</control>
+	</controls>
+</window>

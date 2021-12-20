@@ -1,0 +1,338 @@
+<window>44
+	<defaultcontrol always="true">1000</defaultcontrol>
+	<aspectratio>scale</aspectratio>
+	<coordinates>
+		<system>1</system><posx>0</posx><posy>0</posy>
+	</coordinates>
+	<animation effect="fade" start="0" end="100" time="250">WindowOpen</animation>
+	<animation effect="fade" start="100" end="0" time="250">WindowClose</animation>
+	<include>dialogeffect</include>
+	<controls>
+		<control type="group">
+			<control type="image">
+				<description>Background image</description>
+				<left>363</left>
+				<top>48</top>
+				<width>1194</width>
+				<height>985</height>
+				<texture border="14">dialogs/dialogback.png</texture>
+			</control>
+			<control type="image">
+				<description>Dialog Header image</description>
+				<left>360</left>
+				<top>70</top>
+				<width>1200</width>
+				<height>60</height>
+				<texture>dialogs/dialogheader.png</texture>
+			</control>
+			<control type="label">
+				<description>Header label</description>
+				<left>420</left>
+				<top>76</top>
+				<width>1080</width>
+				<height>45</height>
+				<font>font13_title</font>
+				<label>$LOCALIZE[19047]</label>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>FFEB9E17</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="button" id="1000">
+				<description>Close Window button</description>
+				<posx>1425</posx>
+				<posy>68</posy>
+				<width>96</width>
+				<height>48</height>
+				<onclick>Dialog.Close(VideoOSD,true)</onclick>
+				<onclick>Back</onclick>
+				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<animation effect="fade" time="200">VisibleChange</animation>
+				<visible>true</visible>
+			</control>
+			
+			<control type="label" id="4919">
+				<visible>hidden</visible>
+			</control>
+			
+			<control type="label" id="4232">
+				<visible>hidden</visible>
+			</control>
+			
+			<control type="label" id="4960">
+				<visible>hidden</visible>
+			</control>
+			
+			<control type="label" id="4961">
+				<visible>hidden</visible>
+			</control>
+			
+			<control type="label">
+				<description>Program label</description>
+				<posx>405</posx>
+				<posy>168</posy>
+				<width min="20" max="600">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>[COLOR FF0084FF]$LOCALIZE[556]:[/COLOR]</label>
+			</control>
+			<control type="label" id="4920">
+				<description>Program title</description>
+				<posx>662</posx>
+				<posy>168</posy>
+				<width>640</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+			</control>
+			
+			
+			<control type="image" id="4924">
+				<description>Channel logo</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>0</width>
+				<height>0</height>
+				<visible>hidden</visible>
+			</control>
+			<control type="image" id="4944">
+				<description>Live</description>
+				<posx>870</posx>
+				<posy>680</posy>
+				<width>120</width>
+				<height>27</height>
+				<aspectratio>keep</aspectratio>
+				<fadetime>500</fadetime>
+				<visible>true</visible>
+			</control>
+			
+			<control type="label">
+				<description>Time label</description>
+				<posx>405</posx>
+				<posy>213</posy>
+				<width min="20" max="200">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>[COLOR FF0084FF]$LOCALIZE[142][/COLOR]</label>
+			</control>
+			
+			<control type="grouplist">
+				<posx>662</posx>
+				<posy>213</posy>
+				<width>1920</width>
+				<height>1080</height>
+				<itemgap>10</itemgap>
+				<orientation>horizontal</orientation>
+				<align>left</align>
+					
+			<control type="label" id="4921">
+				<description>Program time</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width min="20" max="300">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+			</control>
+			<control type="label">
+				<description>Date label</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width min="20" max="660">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<label>($INFO[System.Date])</label>
+			</control>
+		</control>
+		
+			<control type="label">
+				<description>Genre</description>
+				<posx>405</posx>
+				<posy>258</posy>
+				<width min="20" max="200">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>[COLOR FF0084FF]$ADDON[script.mtvguide 30505]:[/COLOR]</label>
+			</control>
+			
+			<control type="textbox" id="4926">
+				<description>Program genre</description>
+				<posx>662</posx>
+				<posy>258</posy>
+				<width min="20" max="640">auto</width>
+				<height>38</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+			</control>
+			
+			<control type="label">
+				<description>Episode</description>
+				<posx>405</posx>
+				<posy>303</posy>
+				<width min="20" max="200">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>[COLOR FF0084FF]$ADDON[script.mtvguide 30506]:[/COLOR]</label>
+			</control>
+			
+			<control type="textbox" id="4925">
+				<description>Program episode</description>
+				<posx>662</posx>
+				<posy>303</posy>
+				<width min="20" max="640">auto</width>
+				<height>38</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+			</control>
+			
+			<control type="label">
+				<description>Date</description>
+				<posx>405</posx>
+				<posy>348</posy>
+				<width min="20" max="200">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>[COLOR FF0084FF]$ADDON[script.mtvguide 30508]:[/COLOR]</label>
+			</control>
+			
+			<control type="textbox" id="4929">
+				<description>Program date</description>
+				<posx>662</posx>
+				<posy>348</posy>
+				<width min="20" max="640">auto</width>
+				<height>38</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+			</control>
+			
+			<control type="label">
+				<description>Director</description>
+				<posx>405</posx>
+				<posy>393</posy>
+				<width min="20" max="200">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+				<label>[COLOR FF0084FF]$ADDON[script.mtvguide 30509]:[/COLOR]</label>
+			</control>
+			
+			<control type="textbox" id="4930">
+				<description>Program director</description>
+				<posx>662</posx>
+				<posy>393</posy>
+				<width min="20" max="640">auto</width>
+				<height>38</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>font13</font>
+				<align>left</align>
+			</control>
+			
+			<control type="textbox" id="4928">
+				<description>Program actors</description>
+				<visible>hidden</visible>
+			</control>
+			
+			<control type="image" id="4932">
+				<description>Program age</description>
+				<visible>hidden</visible>
+			</control>
+			
+			<control type="button">
+				<left>1468</left>
+				<top>704</top>
+				<width>50</width>
+				<height>33</height>
+				<texturefocus>dialogs/scroll-up-2.png</texturefocus>
+				<texturenofocus>dialogs/scroll-up-2.png</texturenofocus>
+			</control>
+			
+			<control type="button">
+				<left>1418</left>
+				<top>704</top>
+				<width>50</width>
+				<height>33</height>
+				<texturefocus>dialogs/scroll-down-2.png</texturefocus>
+				<texturenofocus>dialogs/scroll-down-2.png</texturenofocus>
+			</control>
+			
+			<control type="label">
+				<description>Description</description>
+				<posx>1406</posx>
+				<posy>704</posy>
+				<width min="20" max="340">auto</width>
+				<height>34</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>fontContextMenu</font>
+				<align>right</align>
+				<label>[COLOR FF0084FF]$ADDON[script.mtvguide 30510][/COLOR] [COLOR FF999999]( Auto 1/1 )[/COLOR]</label>
+			</control>
+			
+			<control type="textbox" id="4922">
+				<description>Program description</description>
+				<posx>405</posx>
+				<posy>754</posy>
+				<width>1120</width>
+				<height>224</height>
+				<textcolor>FFF1F1F1</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<font>fontContextMenu</font>
+				<align>left</align>
+				<scrolltime>200</scrolltime>
+				<wrapmultiline>true</wrapmultiline>
+				<autoscroll time="3000" delay="5000" repeat="10000">true</autoscroll>
+			</control>
+			<control type="image" id="4923">
+				<description>Program logo</description>
+				<posx>438</posx>
+				<posy>480</posy>
+				<width>400</width>
+				<height>225</height>
+				<aspectratio>strech</aspectratio>
+				<fadetime>500</fadetime>
+				<texture>tvguide-logo-epg.png</texture>
+			</control>
+			<control type="progress" id="4999">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>0</width>
+				<height>0</height>
+				<visible>hidden</visible>
+			</control>
+		</control>
+	</controls>
+</window>

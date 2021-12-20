@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+	<zorder>1</zorder>
+	<aspectratio>scale</aspectratio>
+	<defaultcontrol always="true">1000</defaultcontrol>
+	<allowoverlay>no</allowoverlay>
+	<coordinates>
+		<system>1</system><posx>0</posx><posy>0</posy>
+	</coordinates>
+		<controls>
+		
+		<control type="button" id="1000">
+			<description>Close Window button</description>
+			<top>11</top>
+			<left>auto</left>
+			<width>48</width>
+			<height>48</height>
+			<label></label>
+			<font></font>
+			<onclick>Dialog.Close(VideoOSD,true)</onclick>
+			<onclick>FullScreen</onclick>
+			<texturefocus colordiffuse="EEFFFFFF">dialogs/close.png</texturefocus>
+			<texturenofocus colordiffuse="EEFFFFFF">dialogs/close.png</texturenofocus>
+			<onleft>1000</onleft>
+			<onright>1000</onright>
+			<onup>100</onup>
+			<ondown>100</ondown>
+			<animation effect="slide" end="-70,0" time="0" condition="true">Conditional</animation>
+			<visible>hidden</visible>
+		</control>
+			
+		<!-- !LiveTV -->
+		<control type="group" id="100">
+			<posx>0</posx>
+			<posy>0</posy>
+			<visible>true</visible>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		
+		<control type="image">
+			<top>688</top>
+			<left>17</left>
+			<width>1885</width>
+			<height>295</height>
+			<texture border="40">dialogs/bg.png</texture>
+		</control>
+		
+		<control type="image">
+			<top>794</top>
+			<left>332</left>
+			<width>1520</width>
+			<height>2</height>
+			<texture border="0" colordiffuse="FFE5E5E5">dialogs/osd_line_white.png</texture>
+		</control>
+		<control type="image">
+			<top>934</top>
+			<left>57</left>
+			<width>1805</width>
+			<height>2</height>
+			<texture border="0" colordiffuse="FFE5E5E5">dialogs/osd_line_white.png</texture>
+		</control>
+		
+		<control type="label" id="4954">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4955">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4920">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4962">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="grouplist">
+			<left>330</left>
+			<posy>815</posy>
+			<width>1210</width>
+			<height>1080</height>
+			<itemgap>60</itemgap>
+			<orientation>horizontal</orientation>
+			<aligny>center</aligny>
+		
+		<control type="label" id="4950">
+			<description>Program time</description>
+			<left>0</left>
+			<top>0</top>
+			<width min="20" max="350">auto</width>
+			<height>38</height>
+			<font>font15_textbox</font>
+			<align>left</align>
+		</control>	
+		<control type="label">
+			<description>Program title</description>
+			<left>0</left>
+			<top>0</top>
+			<width min="20" max="880">auto</width>
+			<height>38</height>
+			<textcolor>FF6DB9E5</textcolor>
+			<label>$INFO[Control.GetLabel(4920)] [COLOR AAFFFFFF]$INFO[Control.GetLabel(4962)][/COLOR]</label>
+			<font>font15_textbox</font>
+			<align>left</align>
+			<visible>true</visible>
+		</control>
+	</control>
+	
+		<control type="label" id="4951">
+			<description>Program time</description>
+			<left>1190</left>
+			<top>815</top>
+			<width min="20" max="350">auto</width>
+			<height>38</height>
+			<font>font15_textbox</font>
+			<align>right</align>
+		</control>
+		
+		<control type="label">
+			<left>1560</left>
+			<top>805</top>
+			<width>300</width>
+			<height>30</height>
+			<align>center</align>
+			<font>font24_bold</font>
+			<textcolor>FF6DB9E5</textcolor>
+			<label>$INFO[System.Date]</label>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="label">
+			<left>1580</left>
+			<top>840</top>
+			<width>260</width>
+			<height>100</height>
+			<align>center</align>
+			<font>font65</font>
+			<textcolor>D0FFFFFF</textcolor>
+			<label>$INFO[System.Time(hh:mm xx)]</label>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="image" id="4944">
+			<description>Live</description>
+			<posx>1300</posx>
+			<top>700</top>
+			<width>110</width>
+			<height>80</height>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="label" id="4925">
+		<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4919">
+		<visible>hidden</visible>
+		</control>
+		
+		<control type="grouplist">
+			<left>330</left>
+			<top>698</top>
+			<width>1920</width>
+			<height>1080</height>
+			<orientation>horizontal</orientation>
+			<itemgap>20</itemgap>
+		
+		<control type="label">
+			<description>Program channel</description>
+			<left>0</left>
+			<top>0</top>
+			<width min="0" max="120">auto</width>
+			<height>100</height>
+			<font>font65</font>
+			<align>left</align>
+			<textcolor>FF6DB9E5</textcolor>
+			<label>[UPPERCASE]$INFO[Control.GetLabel(4925)][/UPPERCASE]</label>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+			<visible>!String.IsEqual(Control.GetLabel(4925),)</visible>
+		</control>
+		
+		<control type="label">
+			<description>Program channel</description>
+			<left>0</left>
+			<top>0</top>
+			<width min="0" max="850">auto</width>
+			<height>100</height>
+			<font>font65</font>
+			<align>left</align>
+			<textcolor>FF6DB9E5</textcolor>
+			<label>[UPPERCASE]$INFO[Control.GetLabel(4919)][/UPPERCASE]</label>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+			<visible>!String.IsEqual(Control.GetLabel(4925),)</visible>
+		</control>
+		
+		<control type="label">
+			<description>Program channel</description>
+			<left>0</left>
+			<top>0</top>
+			<width min="0" max="850">auto</width>
+			<height>100</height>
+			<font>font65</font>
+			<align>left</align>
+			<textcolor>FF6DB9E5</textcolor>
+			<label>[UPPERCASE]$INFO[Control.GetLabel(4919)][/UPPERCASE]</label>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+			<visible>String.IsEqual(Control.GetLabel(4925),)</visible>
+		</control>
+	</control>
+		
+		<control type="image" id="4924">
+			<description>Channel logo</description>
+			<left>84</left>
+			<top>730</top>
+			<width>190</width>
+			<height>190</height>
+			<aspectratio>keep</aspectratio>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="textbox" id="4922">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4950">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4951">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4957">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4958">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label" id="4959">
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="label">
+			<description>Next</description>
+			<left>330</left>
+			<top>880</top>
+			<width>1170</width>
+			<height>45</height>
+			<font>font13</font>
+			<align>left</align>
+			<textcolor>AAFFFFFF</textcolor>
+			<label>[COLOR FF6DB9E5]$ADDON[script.mtvguide 30312]:[/COLOR] $INFO[Control.GetLabel(4957)] ($INFO[Control.GetLabel(4959)])</label>
+			<autoscroll time="0" delay="0" repeat="0">false</autoscroll>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="label">
+			<description>Now playing</description>
+			<left>330</left>
+			<top>860</top>
+			<width>1170</width>
+			<height>48</height>
+			<font>font13</font>
+			<align>left</align>
+			<textcolor>AAFFFFFF</textcolor>
+			<label>$ADDON[script.mtvguide 55016]...</label>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+			<visible>hidden</visible>
+		</control>
+		
+		<control type="image">
+			<left>332</left>
+			<top>858</top>
+			<width>1208</width>
+			<height>24</height>
+			<texture border="0" colordiffuse="FF606060">osd/texturebg_white.png</texture>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="slider" id="4998">
+			<visible>hidden</visible>
+		</control>
+
+		<control type="progress" id="4999">
+			<left>332</left>
+			<top>864</top>
+			<width>1208</width>
+			<height>12</height>
+			<midtexture border="0" colordiffuse="FF6DB9E5">osd/texturebg_white.png</midtexture>
+			<texturebg border="3,0,3,0" colordiffuse="FFBDBDBD">osd/texturebg_white.png</texturebg>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="image" id="4932">
+			<description>Program age</description>
+			<left>1285</left>
+			<top>730</top>
+			<width>100</width>
+			<height>50</height>
+			<aspectratio>keep</aspectratio>
+		</control>
+		
+		<control type="image">
+			<left>1375</left>
+			<top>730</top>
+			<width>100</width>
+			<height>50</height>
+			<aspectratio align="center">keep</aspectratio>
+			<texture colordiffuse="AAFFFFFF">$INFO[VideoPlayer.VideoAspect,../../skin.aeon.nox.silvo/media/flags/aspectratio/,.png]</texture>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<control type="image">
+			<left>1665</left>
+			<top>722</top>
+			<width>100</width>
+			<height>68</height>
+			<aspectratio align="center">keep</aspectratio>
+			<texture colordiffuse="AAFFFFFF">$INFO[VideoPlayer.VideoResolution,../../skin.aeon.nox.silvo/media/flags/resolution/,.png]</texture>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		<control type="image">
+			<left>1765</left>
+			<top>722</top>
+			<width>100</width>
+			<height>68</height>
+			<aspectratio align="center">keep</aspectratio>
+			<texture colordiffuse="AAFFFFFF">$INFO[VideoPlayer.VideoCodec,../../skin.aeon.nox.silvo/media/flags/videocodec/,.png]</texture>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+
+		<control type="image">
+			<left>1465</left>
+			<top>722</top>
+			<width>100</width>
+			<height>65</height>
+			<aspectratio align="center">keep</aspectratio>
+			<texture colordiffuse="AAFFFFFF">$INFO[VideoPlayer.AudioCodec,../../skin.aeon.nox.silvo/media/flags/audiocodec/,.png]</texture>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		<control type="image">
+			<left>1565</left>
+			<top>722</top>
+			<width>100</width>
+			<height>68</height>
+			<aspectratio align="center">keep</aspectratio>
+			<texture colordiffuse="AAFFFFFF">$INFO[VideoPlayer.AudioChannels,../../skin.aeon.nox.silvo/media/flags/audiochannels/,ch.png]</texture>
+			<animation type="Visible">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowOpen">
+			  <effect type="fade" start="0" end="100" time="300" easing="out"/>
+			</animation>
+			<animation type="WindowClose">
+			  <effect type="fade" start="100" end="0" time="300" easing="in"/>
+			  <effect type="slide" tween="cubic" time="720" end="0,1080" start="0,0"/>
+			</animation>
+		</control>
+		
+		<!-- InfoBar -->
+		<control type="image">
+			<left>0</left>
+			<top>980</top>
+			<width>1920</width>
+			<height>136</height>
+			<texture border="1,1,1,40">dialogs/topbar.png</texture>
+			<animation effect="slide" end="0,238" time="240" tween="quadratic" condition="Control.HasFocus(101)">Visible</animation>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+			<visible>!Control.IsVisible(101)</visible>
+		</control>
+		
+		<control type="image">
+			<left>0</left>
+			<top>980</top>
+			<width>1920</width>
+			<height>136</height>
+			<texture border="1,1,1,40">dialogs/topbar.png</texture>
+			<animation effect="slide" end="0,238" time="240" tween="quadratic" condition="Control.IsVisible(101) | Control.IsVisible(102) | Control.IsVisible(103) | Control.IsVisible(104) | Control.IsVisible(105) | Control.IsVisible(106) | Control.IsVisible(107) | Control.IsVisible(108)| Control.IsVisible(109) | Control.IsVisible(110)">Focus</animation>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+			<visible>Control.IsVisible(101) | Control.IsVisible(102) | Control.IsVisible(103) | Control.IsVisible(104) | Control.IsVisible(105) | Control.IsVisible(106) | Control.IsVisible(107) | Control.IsVisible(108)| Control.IsVisible(109) | Control.IsVisible(110)</visible>
+		</control>
+		
+		<control type="radiobutton" id="108">
+			<posx>810</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/remindFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/remindFO.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/remindFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/remindFO.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="107">
+			<posx>810</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/remindNF.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/remindNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/remindNF.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/remindNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="105">
+			<posx>810</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/pageFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/pageNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/pageFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/pageNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="101">
+			<posx>810</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/stopFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/stopNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/stopFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/stopNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="102">
+			<posx>1010</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/infoFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/infoNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/infoFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/infoNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="106">
+			<posx>1110</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/setupFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/setupNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/setupFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/setupNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="103">
+			<posx>610</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus flipy="false" colordiffuse="FFF0F0F0">buttons/nextupFO.png</textureradioonfocus>
+			<textureradioonnofocus flipy="false">buttons/nextupNF.png</textureradioonnofocus>
+			<textureradioofffocus flipy="false" colordiffuse="FFF0F0F0">buttons/nextupFO.png</textureradioofffocus>
+			<textureradiooffnofocus flipy="false">buttons/nextupNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="104">
+			<posx>710</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus flipy="true" colordiffuse="FFF0F0F0">buttons/nextupFO.png</textureradioonfocus>
+			<textureradioonnofocus flipy="true">buttons/nextupNF.png</textureradioonnofocus>
+			<textureradioofffocus flipy="true" colordiffuse="FFF0F0F0">buttons/nextupFO.png</textureradioofffocus>
+			<textureradiooffnofocus flipy="true">buttons/nextupNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="109">
+			<posx>1210</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/subsFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/subsNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/subsFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/subsNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="110">
+			<posx>1310</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/langFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/langNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/langFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/langNF.png</textureradiooffnofocus>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+		<control type="radiobutton" id="114">
+			<posx>910</posx>
+			<top>980</top>
+			<width>100</width>
+			<height>100</height>
+			<textureradioonfocus colordiffuse="FFF0F0F0">buttons/playFO.png</textureradioonfocus>
+			<textureradioonnofocus>buttons/playNF.png</textureradioonnofocus>
+			<textureradioofffocus colordiffuse="FFF0F0F0">buttons/pauseFO.png</textureradioofffocus>
+			<textureradiooffnofocus>buttons/pauseNF.png</textureradiooffnofocus>
+			<selected>Player.Paused</selected>
+			<font></font>
+			<texturefocus></texturefocus>
+			<radioposx>1</radioposx>
+			<radioposy>0</radioposy>
+			<radiowidth>100</radiowidth>
+			<radioheight>100</radioheight>
+			<animation effect="slide" start="0,238" end="0,0" time="240" tween="quadratic">WindowOpen</animation>
+			<animation effect="slide" end="0,238" start="0,0" time="240" tween="quadratic">WindowClose</animation>
+		</control>
+
+		<control type="button" id="111">
+		<visible>hidden</visible>
+		</control>
+		<control type="button" id="112">
+		<visible>hidden</visible>
+		</control>
+		<control type="button" id="113">
+		<visible>hidden</visible>
+		</control>
+		<control type="button" id="118">
+		<visible>hidden</visible>
+		</control>
+		<control type="image">
+			<description>Channel number input bg</description>
+			<posx>1600</posx>
+			<posy>40</posy>
+			<width>240</width>
+			<height>160</height>
+			<texture border="32">dialogs/bg2.png</texture>
+			<visible>!String.IsEqual(Control.GetLabel(9999),)</visible>
+		</control>
+		<control type="label" id="9999">
+			<description>Channel number input</description>
+			<posx>1630</posx>
+			<posy>40</posy>
+			<width>180</width>
+			<height>160</height>
+			<textcolor>FF6DB9E5</textcolor>
+			<font>font65</font>
+			<align>center</align>
+			<aligny>center</aligny>
+		</control>
+	</control>
+</controls>
+</window>

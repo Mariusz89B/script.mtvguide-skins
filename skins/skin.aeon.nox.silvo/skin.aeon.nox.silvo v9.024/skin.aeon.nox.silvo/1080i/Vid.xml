@@ -1,0 +1,105 @@
+<window>
+	<zorder>2</zorder>
+	<aspectratio>scale</aspectratio>
+	<defaultcontrol></defaultcontrol>
+	<controls>
+		<control type="image">
+			<description>serwis_bg</description>
+			<left>560</left>
+			<top>35</top>
+			<width>800</width>
+			<height>164</height>
+			<texture border="32">dialogs/bg2.png</texture>
+			<animation type="Visible" reversible="false">
+				<effect type="zoom" start="150" end="100" center="960,540" time="300" tween="cubic" easing="out" />
+				<effect type="fade" end="100" time="150" />
+			</animation>
+			<animation type="Hidden" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<visible>!String.IsEmpty(Control.GetLabel(4940)) + !IsEmpty(Control.GetLabel(4940))</visible>
+		</control>
+		<control type="image">
+			<description>serwis_info</description>
+			<posx>590</posx>
+			<posy>68</posy>
+			<width>98</width>
+			<height>98</height>
+			<texture>dialogs/defaulticoninfo.png</texture>
+			<animation type="Visible" reversible="false">
+				<effect type="zoom" start="150" end="100" center="960,540" time="300" tween="cubic" easing="out" />
+				<effect type="fade" end="100" time="150" />
+			</animation>
+			<animation type="Hidden" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<visible>!String.IsEmpty(Control.GetLabel(4940)) + !IsEmpty(Control.GetLabel(4940))</visible>
+		</control>
+		<control type="label" id="4940">
+			<left>713</left>
+			<top>78</top>
+			<width>280</width>
+			<height>28</height>
+			<font>font15_title</font>
+			<textcolor>FF6DB9E5</textcolor>
+			<animation type="Visible" reversible="false">
+				<effect type="zoom" start="150" end="100" center="960,540" time="300" tween="cubic" easing="out" />
+				<effect type="fade" end="100" time="150" />
+			</animation>
+			<animation type="Hidden" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<visible>!String.IsEmpty(Control.GetLabel(4940)) + !IsEmpty(Control.GetLabel(4940))</visible>
+		</control>
+		<control type="label">
+			<description>label</description>
+			<left>713</left>
+			<top>118</top>
+			<width>380</width>
+			<height>28</height>
+			<font>font14</font>
+			<textcolor>AAFFFFFF</textcolor>
+			<label>$ADDON[script.mtvguide 30965]</label>
+			<animation type="Visible" reversible="false">
+				<effect type="zoom" start="150" end="100" center="960,540" time="300" tween="cubic" easing="out" />
+				<effect type="fade" end="100" time="150" />
+			</animation>
+			<animation type="Hidden" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<animation type="WindowClose" reversible="false">
+				<effect type="slide" tween="cubic" time="720" end="0,-1080" start="0,0" />
+			</animation>
+			<visible>!String.IsEmpty(Control.GetLabel(4940)) + !IsEmpty(Control.GetLabel(4940))</visible>
+		</control>
+		<control type="image">
+			<description>Channel number input bg</description>
+			<posx>1600</posx>
+			<posy>40</posy>
+			<width>240</width>
+			<height>160</height>
+			<texture border="32">dialogs/bg2.png</texture>
+			<visible>!String.IsEqual(Control.GetLabel(9999),)</visible>
+		</control>
+		<control type="label" id="9999">
+			<description>Channel number input</description>
+			<posx>1630</posx>
+			<posy>40</posy>
+			<width>180</width>
+			<height>160</height>
+			<textcolor>FF6DB9E5</textcolor>
+			<font>font65</font>
+			<align>center</align>
+			<aligny>center</aligny>
+		</control>
+	</controls>
+</window>
