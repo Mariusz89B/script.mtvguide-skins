@@ -1,5 +1,0 @@
-Options +Indexes
-<Files *.xml>
-ForceType application/octet-stream
-Header set Content-Disposition attachment
-</Files>
