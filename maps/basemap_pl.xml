@@ -96,6 +96,7 @@
 	<channel id="EUROSPORT, EUROSPORT PL" title="(?=EURO\s*SPORT(\s*1)?(\s*TV)?(\s*HD)?\s*PL$)" strm=""/>
 	<channel id="EXTREME SPORTS CHANNEL, EXTREME SPORTS CHANNEL PL" title="(?=(EXTREME|EXTREM)(\s*SPORT(S)?)?(\s*CHANNEL)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="EZO TV, EZO TV PL" title="(?=EZO(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="FAKTY TVN, FAKTY TVN PL" title="(?=(FAKTY\s*TVN|TVN\s*FAKTY)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="FANKLUB TV, FANKLUB TV PL" title="(?=FAN\s*KLUB(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="FASHION TV, FASHION TV PL" title="(?=FASHION(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="FTV, FTV PL" title="(?=(FASHION|F)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
