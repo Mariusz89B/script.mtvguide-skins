@@ -91,7 +91,7 @@
 	<channel id="EUROSPORT 2, EUROSPORT 2 PL" title="(?=(EURO\s*SPORT\s*2|EUTOSPORT\s*2)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="EUROSPORT 3, EUROSPORT 3 PL" title="(?=(EURO\s*SPORT\s*3|EUTOSPORT\s*3)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="EUROSPORT 4, EUROSPORT 4 PL" title="(?=(EURO\s*SPORT\s*4|EUTOSPORT\s*4)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="EUROSPORT 4K, EUROSPORT 4K PL" title="(?=(EURO\s*SPORT)(\s*1)?(\s*TV)?(\s*UHD)\s*PL$)" strm=""/>
+	<channel id="EUROSPORT 4K, EUROSPORT 4K PL" title="(?=(EURO\s*SPORT)(\s*TV)?\s*(UHD|4K)\s*PL$)" strm=""/>
 	<channel id="EUROSPORT 5, EUROSPORT 5 PL" title="(?=(EURO\s*SPORT\s*5|EUTOSPORT\s*5)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="EUROSPORT, EUROSPORT PL" title="(?=EURO\s*SPORT(\s*1)?(\s*TV)?(\s*HD)?\s*PL$)" strm=""/>
 	<channel id="EXTREME SPORTS CHANNEL, EXTREME SPORTS CHANNEL PL" title="(?=(EXTREME|EXTREM)(\s*SPORT(S)?)?(\s*CHANNEL)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
