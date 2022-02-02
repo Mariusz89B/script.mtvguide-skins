@@ -200,7 +200,7 @@
 	<channel id="POLSAT SPORT FIGHT, POLSAT SPORT FIGHT PL" title="(?=POLSAT\s*SPORT\s*FIGHT(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT SPORT NEWS, POLSAT SPORT NEWS PL" title="(?=POLSAT\s*SPORT\s*NEWS(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT SPORT, POLSAT SPORT PL" title="(?=POLSAT\s*SPORT(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="POLSAT SPORT PREMIUM 1, POLSAT SPORT PREMIUM 1 PL" title="(?=POLSAT\s*SPORT\s*(PREM(\.)?|PREMIUM)(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL$|PSPREMIUM1\s*PL$|PPV1(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="POLSAT SPORT PREMIUM 1, POLSAT SPORT PREMIUM 1 PL" title="(?=((POLSAT\s*SPORT\s*)(PREM(\.)?|PREMIUM)(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL$)|(PSPREMIUM1\s*PL$)|(PPV1(\s*(HD|UHD|4K))?\s*PL$))" strm=""/>
 	<channel id="POLSAT SPORT PREMIUM 2, POLSAT SPORT PREMIUM 2 PL" title="(?=((POLSAT\s*SPORT\s*)(PREM(\.)?|PREMIUM)\s*2(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL$)|(PSPREMIUM2\s*PL$)|(PPV2(\s*(HD|UHD|4K))?\s*PL$))" strm=""/>
 	<channel id="POLSAT SPORT PREMIUM 3, POLSAT SPORT PREMIUM 3 PL" title="(?=((POLSAT\s*SPORT\s*)(PREM(\.)?|PREMIUM)\s*3(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL$)|(PSPREMIUM3\s*PL$)|(PPV3(\s*(HD|UHD|4K))?\s*PL$))" strm=""/>
 	<channel id="POLSAT SPORT PREMIUM 4, POLSAT SPORT PREMIUM 4 PL" title="(?=((POLSAT\s*SPORT\s*)(PREM(\.)?|PREMIUM)\s*4(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL$)|(PSPREMIUM4\s*PL$)|(PPV4(\s*(HD|UHD|4K))?\s*PL$))" strm=""/>
