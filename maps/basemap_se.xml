@@ -65,7 +65,7 @@
 	<channel id="GODARE, GODARE.se, GODARE SE" title="(?=GODARE(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="H2, H2.se, H2 SE" title="(?=(H|HISTORY)(\s*CHANNEL)?\s*2(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="HISTORY, HISTORY.se, HISTORY SE" title="(?=HISTORY(\s*CHANNEL)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="HORSE &amp; COUNTRY TV, HORSE &amp; COUNTRY TV.se, HORSE &amp; COUNTRY TV SE" title="(?=HORSE(\s*&amp;)?\s*COUNTRY(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="HORSE &amp; COUNTRY TV, HORSE &amp; COUNTRY TV.se, HORSE &amp; COUNTRY TV SE" title="(?=HORSE(\s*&amp;|AND)?\s*COUNTRY(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="HRT1, HRT1.se, HRT1 SE" title="(?=HRT(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="ID, ID.se, ID SE" title="(?=(DISCOVERY\s*)?(INVESTIGATION|ID)(\s*DISCOVERY)?(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="KANAL 10, KANAL 10.se, KANAL 10 SE" title="(?=KANAL\s*10(\s*NORGE)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
@@ -111,7 +111,7 @@
 	<channel id="SJUAN, SJUAN.se, SJUAN SE" title="(?=SJUAN\s*SE$)" strm=""/>
 	<channel id="SKY NEWS, SKY NEWS.se, SKY NEWS SE" title="(?=SKY\s*NEWS(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SPORTKANALEN, SPORTKANALEN.se, SPORTKANALEN SE" title="(?=SPORT\s*KANALEN(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="SVT BARN HD, SVT BARN HD.se, SVT BARN HD SE" title="(?=SVT\s*BARN(KANALE(N|R))?(\s*\/)?(\s*SVT\s*24)?(\s*(HD|UHD))\s*SE$)" strm=""/>
+	<channel id="SVT BARN HD, SVT BARN HD.se, SVT BARN HD SE" title="(?=SVT\s*BARN(E)?(KANALE(N|R))?(\s*\/)?(\s*SVT\s*24)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="SVT BARN, SVT BARN.se, SVT BARN SE" title="(?=SVT\s*BARN(KANALE(N|R))?(\s*\/)?(\s*SVT\s*24)?\s*SE$)" strm=""/>
 	<channel id="SVT1 HD, SVT1 HD.se, SVT1 HD SE" title="(?=SVT(\s*1)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="SVT1, SVT1.se, SVT1 SE" title="(?=SVT(\s*1)?\s*SE$)" strm=""/>
@@ -148,7 +148,7 @@
 	<channel id="TV8 HD, TV8 HD.se, TV8 HD SE" title="(?=TV\s*8(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="TV8, TV8.se, TV8 SE" title="(?=TV\s*8\s*SE$)" strm=""/>
 	<channel id="V FILM ACTION HD, V FILM ACTION HD.se, V FILM ACTION HD SE" title="(?=(V|VIASAT)\s*FILM\s*ACTION(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="V FILM FAMILY HD, V FILM FAMILY HD.se, V FILM FAMILY HD SE" title="(?=(V|VIASAT)\s*FILM\s*FAMILY(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V FILM FAMILY HD, V FILM FAMILY HD.se, V FILM FAMILY HD SE" title="(?=(V|VIASAT)\s*FILM\s*FAMIL(L)?Y(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V FILM HITS HD, V FILM HITS HD.se, V FILM HITS HD SE" title="(?=(V|VIASAT)\s*FILM\s*HITS(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V FILM PREMIERE HD, V FILM PREMIERE HD.se, V FILM PREMIERE HD SE" title="(?=(V|VIASAT)\s*FILM\s*PREMIERE(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V, RIES HD, V.se, RIES HD.se, V SERIES HD SE" title="(?=(V|VIASAT)\s*SERIES(\s*(HD|UHD))?\s*SE$)" strm=""/>

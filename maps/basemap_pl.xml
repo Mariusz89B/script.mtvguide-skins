@@ -39,7 +39,7 @@
 	<channel id="CANAL+ DOMO, CANAL+ DOMO PL" title="(?=((CANAL|C)\s*(\+\s*|PLUS\s*)?)?DOMO(\s*\+|\s*PLUS)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="CANAL+ FAMILY, CANAL+ FAMILY PL" title="(?=(CANAL|C)\s*(\+|PLUS)?\s*FAMILY(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="CANAL+ FILM, CANAL+ FILM PL" title="(?=(CANAL|C)\s*(\+|PLUS)?\s*FILM(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="CANAL+ KUCHNIA, CANAL+ KUCHNIA PL" title="(?=((CANAL|C)\s*(\+\s*|PLUS\s*)?)?KUCHNIA(\s*\+|\s*PLUS)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="CANAL+ KUCHNIA, CANAL+ KUCHNIA PL" title="(?=((CANAL|C)\s*(\+\s*|PLUS\s*)?)?KUCH(I)?NIA(\s*\+|\s*PLUS)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="CANAL+ NOW, CANAL+ NOW PL" title="(?=(CANAL|C)\s*(\+|PLUS)?\s*NOW(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="CANAL+ PREMIUM, CANAL+ PREMIUM PL" title="(?=(CANAL|C)\s*(\+|PLUS)?(\s*PREMIUM)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="CANAL+ SERIALE, CANAL+ SERIALE PL" title="(?=(CANAL|C)\s*(\+|PLUS)?\s*SERIALE(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
