@@ -195,7 +195,7 @@
 	<channel id="POLSAT, POLSAT PL" title="(?=POLSAT(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT PLAY, POLSAT PLAY PL" title="(?=POLSAT\s*PLAY(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT RODZINA, POLSAT RODZINA PL" title="(?=POLSAT\s*RODZINA(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="POLSAT SERIALE, POLSAT SERIALE PL" title="(?=POLSAT\s*(SERIALE|ROMANS)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="POLSAT SERIALE, POLSAT SERIALE PL" title="(?=POLSAT\s*(SERIAL(E)?|ROMANS)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT SPORT EXTRA, POLSAT SPORT EXTRA PL" title="(?=POLSAT\s*SPORT\s*EXTRA(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT SPORT FIGHT, POLSAT SPORT FIGHT PL" title="(?=POLSAT\s*SPORT\s*FIGHT(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT SPORT NEWS, POLSAT SPORT NEWS PL" title="(?=POLSAT\s*SPORT\s*NEWS(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
