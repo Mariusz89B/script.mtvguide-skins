@@ -200,12 +200,12 @@
 	<channel id="POLSAT SPORT FIGHT, POLSAT SPORT FIGHT PL" title="(?=POLSAT\s*SPORT\s*FIGHT(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT SPORT NEWS, POLSAT SPORT NEWS PL" title="(?=POLSAT\s*SPORT\s*NEWS(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT SPORT, POLSAT SPORT PL" title="(?=POLSAT\s*SPORT(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="POLSAT SPORT PREMIUM 1, POLSAT SPORT PREMIUM 1 PL" title="(?=POLSAT\s*SPORT\s*(PREM|PREMIUM)(\s*1)?(\s*PPV)?(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM1\s*PL|PPV(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="POLSAT SPORT PREMIUM 2, POLSAT SPORT PREMIUM 2 PL" title="(?=POLSAT\s*SPORT\s*(PREM|PREMIUM)(\s*2\s*PPV|\s*PPV\s*2|\s*2)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM2\s*PL$)" strm=""/>
-	<channel id="POLSAT SPORT PREMIUM 3, POLSAT SPORT PREMIUM 3 PL" title="(?=POLSAT\s*SPORT\s*(PREM|PREMIUM)(\s*3\s*PPV|\s*PPV\s*3|\s*3)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM3\s*PL$)" strm=""/>
-	<channel id="POLSAT SPORT PREMIUM 4, POLSAT SPORT PREMIUM 4 PL" title="(?=POLSAT\s*SPORT\s*(PREM|PREMIUM)(\s*4\s*PPV|\s*PPV\s*4|\s*4)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM4\s*PL$)" strm=""/>
-	<channel id="POLSAT SPORT PREMIUM 5, POLSAT SPORT PREMIUM 5 PL" title="(?=POLSAT\s*SPORT\s*(PREM|PREMIUM)(\s*5\s*PPV|\s*PPV\s*5|\s*5)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM5\s*PL$)" strm=""/>
-	<channel id="POLSAT SPORT PREMIUM 6, POLSAT SPORT PREMIUM 6 PL" title="(?=POLSAT\s*SPORT\s*(PREM|PREMIUM)(\s*6\s*PPV|\s*PPV\s*6|\s*6)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM6\s*PL$)" strm=""/>
+	<channel id="POLSAT SPORT PREMIUM 1, POLSAT SPORT PREMIUM 1 PL" title="(?=POLSAT\s*SPORT\s*(PREM(\.)?|PREMIUM)(\s*1)?(\s*PPV)?(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM1\s*PL|PPV(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="POLSAT SPORT PREMIUM 2, POLSAT SPORT PREMIUM 2 PL" title="(?=POLSAT\s*SPORT\s*(PREM(\.)?|PREMIUM)(\s*2\s*PPV|\s*PPV\s*2|\s*2)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM2\s*PL$)" strm=""/>
+	<channel id="POLSAT SPORT PREMIUM 3, POLSAT SPORT PREMIUM 3 PL" title="(?=POLSAT\s*SPORT\s*(PREM(\.)?|PREMIUM)(\s*3\s*PPV|\s*PPV\s*3|\s*3)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM3\s*PL$)" strm=""/>
+	<channel id="POLSAT SPORT PREMIUM 4, POLSAT SPORT PREMIUM 4 PL" title="(?=POLSAT\s*SPORT\s*(PREM(\.)?|PREMIUM)(\s*4\s*PPV|\s*PPV\s*4|\s*4)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM4\s*PL$)" strm=""/>
+	<channel id="POLSAT SPORT PREMIUM 5, POLSAT SPORT PREMIUM 5 PL" title="(?=POLSAT\s*SPORT\s*(PREM(\.)?|PREMIUM)(\s*5\s*PPV|\s*PPV\s*5|\s*5)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM5\s*PL$)" strm=""/>
+	<channel id="POLSAT SPORT PREMIUM 6, POLSAT SPORT PREMIUM 6 PL" title="(?=POLSAT\s*SPORT\s*(PREM(\.)?|PREMIUM)(\s*6\s*PPV|\s*PPV\s*6|\s*6)(\s*TV)?(\s*(HD|UHD|4K))?(\s*SPORTS)?\s*PL(\s*SPORTS)?$|PSPREMIUM6\s*PL$)" strm=""/>
 	<channel id="POLSAT VIASAT EXPLORE, POLSAT VIASAT EXPLORE PL" title="(?=(POLSAT\s*)?VIASAT\s*EXPLORE(\s*POLSAT)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT VIASAT HISTORY, POLSAT VIASAT HISTORY PL" title="(?=(POLSAT\s*)?VIASAT\s*HISTORY(\s*POLSAT)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="POLSAT VIASAT NATURE, POLSAT VIASAT NATURE PL" title="(?=(POLSAT\s*)?VIASAT\s*NATURE(\s*POLSAT)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
