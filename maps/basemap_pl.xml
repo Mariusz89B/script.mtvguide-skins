@@ -298,7 +298,7 @@
 	<channel id="TVP HISTORIA, TVP HISTORIA PL" title="(?=(TVP\s*HISTORIA|HISTORIA\s*TVP)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP INFO, TVP INFO PL" title="(?=(TVP\s*INFO|INFO\s*TVP)(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP KOBIETA, TVP KOBIETA PL" title="(?=TVP\s*KOBIETA(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="TVP KULTURA 2, TVP KULTURA 2 PL" title="(?=(TVP\s*)(KULTURA)(\s*2)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="TVP KULTURA 2, TVP KULTURA 2 PL" title="(?=(TVP\s*)(KULTURA)(\s*2)(\s*TV)?(\s*(HD|UHD|4K))?(\s*PL$))" strm=""/>
 	<channel id="TVP KULTURA, TVP KULTURA PL" title="(?=(TVP\s*KULTURA|KULTURA\s*TVP)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP PARLAMENT, TVP PARLAMENT PL" title="(?=(TVP\s*)?PARLAMENT(\s*SENAT)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP POLANDIN, TVP POLANDIN PL" title="(?=(TVP\s*)?POLAND\s*IN(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
