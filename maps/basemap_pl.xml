@@ -72,7 +72,7 @@
 	<channel id="DIZI, DIZI PL" title="(?=DIZI(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="DLACIEBIE TV, DLACIEBIE TV PL" title="(?=DLA(\.|\s*)CIEBIE(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="DOCUBOX, DOCUBOX PL" title="(?=DOCU\s*BOX(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="DOMOWE PRZEDSZKOLE, DOMOWE PRZEDSZKOLE PL" title="(?=DOMOWE\s*PRZEDSZKOLE(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="DOMOWE PRZEDSZKOLE, DOMOWE PRZEDSZKOLE PL" title="(?=(TVP\s*)?DOMOWE\s*PRZEDSZKOLE(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="DTX, DTX PL" title="(?=((DISCOVER(Y)?)?\s*TURBO\s*(XTRA|EXTRA|EX)|DTX|XTRA)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="DUCK TV, DUCK TV PL" title="(?=DUCK(\s*TV)?(\s*(HD|UHD|4K))?(\s*ENG)?\s*PL$)" strm=""/>
 	<channel id="E! ENTERTAINMENT, E! ENTERTAINMENT PL" title="(?=E(!)?(\s*ENTERTAINMENT)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
@@ -300,7 +300,7 @@
 	<channel id="TVP KOBIETA, TVP KOBIETA PL" title="(?=TVP\s*KOBIETA(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP KULTURA 2, TVP KULTURA 2 PL" title="(?=TVP\s*KULTURA\s*2(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP KULTURA, TVP KULTURA PL" title="(?=(TVP\s*KULTURA|KULTURA\s*TVP)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="TVP PARLAMENT, TVP PARLAMENT PL" title="(?=TVP\*PARLAMENT(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="TVP PARLAMENT, TVP PARLAMENT PL" title="(?=(TVP\s*)?PARLAMENT(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP POLANDIN, TVP POLANDIN PL" title="(?=(TVP\s*)?POLAND\s*IN(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP POLONIA, TVP POLONIA PL" title="(?=(TVP\s*POLONIA|POLONIA\s*TVP)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP REGIONALNA, TVP REGIONALNA PL" title="(?=(TVP\s*REGIONALNA|REGIONALNA\s*TVP)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
