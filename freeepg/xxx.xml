@@ -302,12 +302,12 @@
   </channel>
    <channel id="French Lover">
     <display-name lang="pl">French Lover</display-name>
-    <icon src="http://mods-kodi.pl/mtvguide/ikony/15.07.2018/french_lover.png" />
+    <icon src="http://mods-kodi.pl/mtvguide/ikony/xxx/french_lover.png" />
     <url>http://www.puste/xxx/french_lover</url>
   </channel>
   <channel id="Porno TV">
     <display-name lang="pl">Porno TV</display-name>
-    <icon src="http://mods-kodi.pl/mtvguide/ikony/15.07.2018/porno_tv.png" />
+    <icon src="http://mods-kodi.pl/mtvguide/ikony/xxx/porno_tv.png" />
     <url>http://www.puste/xxx/porno_tv</url>
   </channel>
   <programme start="20200101000000" stop="20990101235900" channel="Adult Channel">
