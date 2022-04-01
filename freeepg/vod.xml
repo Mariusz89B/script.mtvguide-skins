@@ -72,7 +72,7 @@
     <display-name lang="pl">Big Brother 3</display-name>
     <icon src="http://mods-kodi.pl/mtvguide/ikony/PL/25.05.2021/big_brother3_pl.png" />
   </channel>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD Cyfrowy Polsat">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD Cyfrowy Polsat">
     <title lang="pl">VOD Cyfrowy Polsat</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -80,7 +80,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD Pay per view">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD Pay per view">
     <title lang="pl">VOD PPV</title>
     <desc lang="pl">Kategoria: [B]Pay per view [/B] 
 VOD Pay per view - Polsat VOD
@@ -88,7 +88,7 @@ VOD Pay per view - Polsat VOD
 </desc>
     <category lang="pl">Pay per view</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 200">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 200">
     <title lang="pl">VOD 200</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -96,7 +96,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 201">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 201">
     <title lang="pl">VOD 201</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -104,7 +104,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 202">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 202">
     <title lang="pl">VOD 202</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -112,7 +112,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 203">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 203">
     <title lang="pl">VOD 203</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -120,7 +120,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 204">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 204">
     <title lang="pl">VOD 204</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -128,7 +128,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 205">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 205">
     <title lang="pl">VOD 205</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -136,7 +136,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 206">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 206">
     <title lang="pl">VOD 206</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -144,7 +144,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 207">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 207">
     <title lang="pl">VOD 207</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -152,7 +152,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 208">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 208">
     <title lang="pl">VOD 208</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -160,7 +160,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 209">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 209">
     <title lang="pl">VOD 209</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -168,7 +168,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 210">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 210">
     <title lang="pl">VOD 210</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -176,7 +176,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 211">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 211">
     <title lang="pl">VOD 211</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -184,7 +184,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="VOD 212">
+  <programme start="20200101000000" stop="20990101235900" channel="VOD 212">
     <title lang="pl">VOD 212</title>
     <desc lang="pl">Kategoria: [B]Video on demand [/B] 
 VOD Cyfrowy Polsat - Polsat VOD
@@ -192,7 +192,7 @@ VOD Cyfrowy Polsat - Polsat VOD
 </desc>
     <category lang="pl">Video on demand</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="Big Brother 1">
+  <programme start="20200101000000" stop="20990101235900" channel="Big Brother 1">
     <title lang="pl">Big Brother 1</title>
     <desc lang="pl">Kategoria: [B]Rozrywka [/B] 
 Big Brother 1 - TVN VOD
@@ -200,7 +200,7 @@ Big Brother 1 - TVN VOD
 </desc>
     <category lang="pl">Rozrywka</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="Big Brother 2">
+  <programme start="20200101000000" stop="20990101235900" channel="Big Brother 2">
     <title lang="pl">Big Brother 2</title>
     <desc lang="pl">Kategoria: [B]Rozrywka [/B] 
 Big Brother 2 - TVN VOD
@@ -208,7 +208,7 @@ Big Brother 2 - TVN VOD
 </desc>
     <category lang="pl">Rozrywka</category>
   </programme>
-  <programme start="20211126000000" stop="20211126235900" channel="Big Brother 3">
+  <programme start="20200101000000" stop="20990101235900" channel="Big Brother 3">
     <title lang="pl">Big Brother 3</title>
     <desc lang="pl">Kategoria: [B]Rozrywka [/B] 
 Big Brother 3 - TVN VOD
