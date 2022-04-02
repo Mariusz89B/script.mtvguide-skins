@@ -550,4 +550,12 @@
     <title lang="pl">SCT TV PL</title>
     <desc>Program Erotyczny</desc>
   </programme>
+  <programme start="20200101000000" stop="20990101235900" channel="French Lover PL">
+    <title lang="pl">French Lover PL</title>
+    <desc>Program Erotyczny</desc>
+  </programme>
+  <programme start="20200101000000" stop="20990101235900" channel="Porno TV PL">
+    <title lang="pl">Porno TV PL</title>
+    <desc>Program Erotyczny</desc>
+  </programme>
 </tv>
