@@ -293,7 +293,7 @@
 	<channel id="TVP 3 ŁÓDŹ, TVP 3 ŁÓDŹ PL" title="(?=(TVP)(\s*3)?\s*LODZ(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP 4K, TVP 4K PL" title="(?=(TVP)(\s*TV)?(\s*(UHD|4K))\s*PL$)" strm=""/>
 	<channel id="TVP ABC, TVP ABC PL" title="(?=(TVP\s*ABC|ABC\s*TVP)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="TVP ABC 2, TVP ABC 2 PL" title="(?=(TVP\s*ABC|ABC\s*TVP)(\s*2)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="TVP ABC 2, TVP ABC 2 PL" title="(?=(ABC|TVP\s*ABC|ABC\s*TVP)(\s*2)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP DOKUMENT, TVP DOKUMENT PL" title="(?=(TVP\s*DO(C|K)UMENT|DO(C|K)UMENT\s*TVP)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TVP HD, TVP HD PL" title="(?=TVP(\s*TV)?(\s*HD)?\s*PL$)" strm=""/>
 	<channel id="TVP HISTORIA 2, TVP HISTORIA 2 PL" title="(?=(HISTORIA|TVP\s*HISTORIA|HISTORIA\s*TVP)(\s*2)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
