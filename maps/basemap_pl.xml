@@ -314,7 +314,7 @@
 	<channel id="TVT, TVT PL" title="(?=TVT(\s*ZGORZELEC)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TWOJA TELEWIZJA MORSKA, TWOJA TELEWIZJA MORSKA PL" title="(?=(TTM|TWOJA\s*TELEWIZJA\s*MORSKA)(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="TWOJA TV, TWOJA TV PL" title="(?=TWOJA(\.)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
-	<channel id="UA TV, UA TV PL" title="(?=UA(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
+	<channel id="UA TV, UA TV PL" title="(?=UA(\s*1)?(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="UKRAINE 24, UKRAINE 24 PL" title="(?=UKRAINE\s*24(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="ULTRA TV 4K, ULTRA TV 4K PL" title="(?=(ULTRA)(\s*TV)?(\s*(UHD|4K))?\s*PL$)" strm=""/>
 	<channel id="VH1 CLASSIC, VH1 CLASSIC PL" title="(?=VH1\s*Classic(\s*TV)?(\s*(HD|UHD|4K))?\s*PL$)" strm=""/>
