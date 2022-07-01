@@ -4,7 +4,7 @@
 <skinlist>
 <skin name="skin.aeon.nox.silvo"  url="skin.aeon.nox.silvo/skin.aeon.nox.silvo-9.026.zip"   version="9.026" 		mTVGuideVersion = "9.0.0"   icon="skin.aeon.nox.silvo/name.png" 	fanart="skin.aeon.nox.silvo/fanart.jpg"  description="mariusz89b"/>
 <skin name="skin.confluence" 	  url="skin.confluence/skin.confluence-9.004.zip"  			version="9.004" 		mTVGuideVersion = "9.0.0"   icon="skin.confluence/name.png" 		fanart="skin.confluence/fanart.jpg" 	 description="mariusz89b"/>
-<skin name="skin.default" 		  url="skin.default/skin.default-9.050.zip"  			    version="9.050" 		mTVGuideVersion = "9.0.0"   icon="skin.default/name.png" 			fanart="skin.default/fanart.jpg" 		 description="mariusz89b"/>
+<skin name="skin.default" 		  url="skin.default/skin.default-9.051.zip"  			    version="9.051" 		mTVGuideVersion = "9.0.0"   icon="skin.default/name.png" 			fanart="skin.default/fanart.jpg" 		 description="mariusz89b"/>
 <skin name="skin.estouchy" 		  url="skin.estouchy/skin.estouchy-9.033.zip"  				version="9.033" 		mTVGuideVersion = "9.0.0"   icon="skin.estouchy/name.png" 			fanart="skin.estouchy/fanart.jpg" 		 description="mariusz89b"/>
 <skin name="skin.estuary.modv2"   url="skin.estuary.modv2/skin.estuary.modv2-9.025.zip" 	version="9.025" 		mTVGuideVersion = "9.0.0"   icon="skin.estuary.modv2/name.png" 		fanart="skin.estuary.modv2/fanart.jpg" 	 description="mariusz89b"/>
 <skin name="skin.xx" 			  url="skin.xx/skin.xx-9.016.zip" 						    version="9.016" 		mTVGuideVersion = "9.0.0"   icon="skin.xx/name.png" 				fanart="skin.xx/fanart.jpg" 			 description="moras86"/>
