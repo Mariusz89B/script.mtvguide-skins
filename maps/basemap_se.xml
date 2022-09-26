@@ -45,14 +45,14 @@
 	<channel id="DISCOVERY CHANNEL HD, DISCOVERY CHANNEL HD.se, DISCOVERY CHANNEL HD SE" title="(?=(DISCOVERY|DISC)(.)?(\s*CHANNEL)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="DISCOVERY CHANNEL, DISCOVERY CHANNEL.se, DISCOVERY CHANNEL SE" title="(?=(DISCOVERY|DISC)(.)?(\s*CHANNEL)?\s*SE$)" strm=""/>
 	<channel id="DISCOVERY SCIENCE, DISCOVERY SCIENCE.se, DISCOVERY SCIENCE SE" title="(?=(DISCOVERY|DISC)(.)?\s*SCIENCE(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 1 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 2 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*2(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 3 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*3(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 4 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*4(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 5 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*5(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 6 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*6(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 7 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*7(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="DISCOVERY+ EXTRA 8 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*8(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 1 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 2 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?\s*2(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 3 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?\s*3(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 4 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?\s*4(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 5 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?\s*5(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 6 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?\s*6(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 7 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?\s*7(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 8 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?(\s*EXTRA)?\s*8(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="DISNEY CHANNEL, DISNEY CHANNEL.se, DISNEY CHANNEL SE" title="(?=DISNEY\s*CHANNEL(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="DISNEY JUNIOR, DISNEY JUNIOR.se, DISNEY JUNIOR SE" title="(?=DISNEY(\s*(JUNIOR|JR(\.)?))(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="DMAX, DMAX.se, DMAX SE" title="(?=D\s*MAX(\s*(HD|UHD))?\s*SE$)" strm=""/>
@@ -188,7 +188,7 @@
 	<channel id="V SPORT MOTOR, V SPORT MOTOR.se, V SPORT MOTOR SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*MOTOR(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT PREMIUM, V SPORT PREMIUM.se, V SPORT PREMIUM SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*PREMIUM(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT ULTRA HD, V SPORT ULTRA HD.se, V SPORT ULTRA HD SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*ULTRA(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
-	<channel id="V SPORT VINTER SE" title="(?=V SPORT LIVE\s*VINTER(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V SPORT VINTER SE" title="(?=(V|VIASAT)\s*SPORT(\s*LIVE)?\s*VINTER(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V SERIES HD, V SERIES HD.se, V SERIES HD SE" title="(?=(V|VIASAT)\s*SERIES(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V4 SE" title="(?=V4(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="VIASAT EXPLORE, VIASAT EXPLORE.se, VIASAT EXPLORE SE" title="(?=(V|VIASAT)\s*EXPLORE(R)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
