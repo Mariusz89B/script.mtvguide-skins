@@ -92,7 +92,7 @@
 	<channel id="KUNSKAPSKANALEN, KUNSKAPSKANALEN.se, KUNSKAPSKANALEN SE" title="(?=(SVT\s*)?KUNSKAPSKANALEN\s*SE$)" strm=""/>
 	<channel id="MEZZO LIVE HD, MEZZO LIVE HD.se, MEZZO LIVE HD SE" title="(?=MEZZO\s*LIVE(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="MEZZO, MEZZO.se, MEZZO SE" title="(?=MEZZO(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="MOTORSPORT TV, MOTORSPORT TV.se, MOTORSPORT TV SE" title="(?=MOTOR\s*SPORT(\s*TV)?\s*SE$)" strm=""/>
+	<channel id="MOTORSPORT TV, MOTORSPORT TV.se, MOTORSPORT TV SE" title="(?=MOTOR\s*SPORT(\.)?(\s*TV)?\s*SE$)" strm=""/>
 	<channel id="MTV 00s, MTV 00s.se, MTV 00s SE" title="(?=(VH(\s*|\-)?1|MTV\s*00(\W)?(s)?)(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="MTV 80S, MTV 80S.se, MTV 80S SE" title="(?=MTV\s*80(\W)?(S)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="MTV 90S, MTV 90S.se, MTV 90S SE" title="(?=MTV\s*90(\W)?(S)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
