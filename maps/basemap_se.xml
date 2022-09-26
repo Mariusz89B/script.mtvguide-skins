@@ -132,7 +132,7 @@
 	<channel id="SPORTBLADET PLAY 5 SE" title="(?=SPORTBLADET\s*PLAY\s*5(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SPORTBLADET PLAY 6 SE" title="(?=SPORTBLADET\s*PLAY\s*6(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SPORTBLADET PLAY 7 SE" title="(?=SPORTBLADET\s*PLAY\s*7(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="SPORTBLADET PLAY SE" title="(?=Sportbladet\s*Play(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY SE" title="(?=SPORTBLADET\s*PLAY(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SPORTKANALEN, SPORTKANALEN.se, SPORTKANALEN SE" title="(?=SPORT\s*KANALEN(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="STRIVE Sport TV SE" title="(?=STRIVE\s*SPORT(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SVT BARN HD, SVT BARN HD.se, SVT BARN HD SE" title="(?=SVT\s*BARN(E)?(KANALE(N|R))?(\s*\/)?(\s*SVT\s*24)?(\s*(HD|UHD))\s*SE$)" strm=""/>
