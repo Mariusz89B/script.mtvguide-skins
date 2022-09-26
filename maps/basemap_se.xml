@@ -30,11 +30,12 @@
 	<channel id="C MORE LIVE 5 HD, C MORE LIVE 5 HD.se, C MORE LIVE 5 HD SE" title="(?=C\s*MORE\s*LIVE\s*5(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="C MORE LIVE HD, C MORE LIVE HD.se, C MORE LIVE HD SE" title="(?=C\s*MORE\s*LIVE(\s*1)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="C MORE LIVE, C MORE LIVE.se, C MORE LIVE SE" title="(?=C\s*MORE\s*LIVE(\s*1)?\s*SE$)" strm=""/>
-	<channel id="C MORE, RIES HD, C MORE.se, RIES HD.se, C MORE SERIES HD SE" title="(?=C\s*MORE\s*SERIES(\s*(HD|UHD))\s*SE$)" strm=""/>
-	<channel id="C MORE, RIES, C MORE.se, RIES.se, C MORE SERIES SE" title="(?=C\s*MORE\s*SERIES\s*SE$)" strm=""/>
 	<channel id="C MORE SPORT, C MORE SPORT.se, C MORE SPORT SE" title="(?=C\s*MORE\s*SPORT(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="C MORE STARS HD, C MORE STARS HD.se, C MORE STARS HD SE" title="(?=C\s*MORE\s*STARS(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="C MORE STARS, C MORE STARS.se, C MORE STARS SE" title="(?=C\s*MORE\s*STARS\s*SE$)" strm=""/>
+	<channel id="C MORE TENNIS SE" title="(?=C\s*MORE\s*TENNIS(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="C MORE, RIES HD, C MORE.se, RIES HD.se, C MORE SERIES HD SE" title="(?=C\s*MORE\s*SERIES(\s*(HD|UHD))\s*SE$)" strm=""/>
+	<channel id="C MORE, RIES, C MORE.se, RIES.se, C MORE SERIES SE" title="(?=C\s*MORE\s*SERIES\s*SE$)" strm=""/>
 	<channel id="CARTOON NETWORK, CARTOON NETWORK.se, CARTOON NETWORK SE" title="(?=CARTOON\s*NETWORK(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="CBS REALITY, CBS REALITY.se, CBS REALITY SE" title="(?=CBS\s*REALITY(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="CNBC, CNBC.se, CNBC SE" title="(?=CNBC(\s*(HD|UHD))?\s*SE$)" strm=""/>
@@ -44,6 +45,14 @@
 	<channel id="DISCOVERY CHANNEL HD, DISCOVERY CHANNEL HD.se, DISCOVERY CHANNEL HD SE" title="(?=(DISCOVERY|DISC)(.)?(\s*CHANNEL)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="DISCOVERY CHANNEL, DISCOVERY CHANNEL.se, DISCOVERY CHANNEL SE" title="(?=(DISCOVERY|DISC)(.)?(\s*CHANNEL)?\s*SE$)" strm=""/>
 	<channel id="DISCOVERY SCIENCE, DISCOVERY SCIENCE.se, DISCOVERY SCIENCE SE" title="(?=(DISCOVERY|DISC)(.)?\s*SCIENCE(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 1 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 2 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*2(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 3 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*3(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 4 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*4(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 5 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*5(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 6 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*6(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 7 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*7(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="DISCOVERY+ EXTRA 8 SE" title="(?=DISCOVERY((\s*)?\+|PLUS)?\s*EXTRA\s*8(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="DISNEY CHANNEL, DISNEY CHANNEL.se, DISNEY CHANNEL SE" title="(?=DISNEY\s*CHANNEL(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="DISNEY JUNIOR, DISNEY JUNIOR.se, DISNEY JUNIOR SE" title="(?=DISNEY(\s*(JUNIOR|JR(\.)?))(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="DMAX, DMAX.se, DMAX SE" title="(?=D\s*MAX(\s*(HD|UHD))?\s*SE$)" strm=""/>
@@ -51,6 +60,7 @@
 	<channel id="DR2, DR2.se, DR2 SE" title="(?=DR\s*2(\s*(HD|UHD))?\s*DK$)" strm=""/>
 	<channel id="E!, E!.se, E! SE" title="(?=(E(!)?\s*|ENTERTAINMENT)(ENTERTAINMENT)?(\s*TV)?(\s*HD)?\s*SE$)" strm=""/>
 	<channel id="ESPORTS TV, ESPORTS TV.se, ESPORTS TV SE" title="(?=ESPORT(S)?(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="ESPORTSONE SE" title="(?=ESPORTS(ONE|\s*1)(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="EURONEWS, EURONEWS.se, EURONEWS SE" title="(?=EURONEWS(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="EUROSPORT 1 HD, EUROSPORT 1 HD.se, EUROSPORT 1 HD SE"	title="(?=EURO\s*SPORT(\s*1)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="EUROSPORT 1, EUROSPORT 1.se, EUROSPORT 1 SE" title="(?=EURO\s*SPORT(\s*1)?\s*SE$)" strm=""/>
@@ -64,6 +74,8 @@
 	<channel id="GINX ESPORTS, GINX ESPORTS.se, GINX ESPORTS SE" title="(?=GINX(\s*ESPORT(S)?)?(\s*TV)(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="GODARE, GODARE.se, GODARE SE" title="(?=GODARE(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="H2, H2.se, H2 SE" title="(?=(H|HISTORY)(\s*CHANNEL)?\s*2(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="HBO NORDIC SD SE" title="(?=HBO\s*NORDIC(\s*(SD|HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="HIGH TV 3D SE" title="(?=HIGH\s*TV(\s*3D)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="HISTORY, HISTORY.se, HISTORY SE" title="(?=HISTORY(\s*CHANNEL)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="HORSE &amp; COUNTRY TV, HORSE &amp; COUNTRY TV.se, HORSE &amp; COUNTRY TV SE" title="(?=HORSE(\s*&amp;|AND)?\s*COUNTRY(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="HRT1, HRT1.se, HRT1 SE" title="(?=HRT(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
@@ -75,6 +87,7 @@
 	<channel id="KANAL 5, KANAL 5.se, KANAL 5 SE" title="(?=KANAL\s*5\s*SE$)" strm=""/>
 	<channel id="KANAL 9 HD, KANAL 9 HD.se, KANAL 9 HD SE" title="(?=KANAL\s*9(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="KANAL 9, KANAL 9.se, KANAL 9 SE" title="(?=KANAL\s*9\s*SE$)" strm=""/>
+	<channel id="KANAL GLOBAL SE" title="(?=KANAL\s*GLOBAL(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="KUNSKAPSKANALEN HD, KUNSKAPSKANALEN HD.se, KUNSKAPSKANALEN HD SE" title="(?=(SVT\s*)?KUNSKAPSKANALEN(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="KUNSKAPSKANALEN, KUNSKAPSKANALEN.se, KUNSKAPSKANALEN SE" title="(?=(SVT\s*)?KUNSKAPSKANALEN\s*SE$)" strm=""/>
 	<channel id="MEZZO LIVE HD, MEZZO LIVE HD.se, MEZZO LIVE HD SE" title="(?=MEZZO\s*LIVE(\s*(HD|UHD))?\s*SE$)" strm=""/>
@@ -93,6 +106,7 @@
 	<channel id="NATIONAL GEOGRAPHIC, NATIONAL GEOGRAPHIC.se, NATIONAL GEOGRAPHIC SE" title="(?=(NAT|NATIONAL)\s*(GEO|GEOGRAPHIC|GEOGRAPHIIC)\s*SE$)" strm=""/>
 	<channel id="NAUTICAL CHANNEL, NAUTICAL CHANNEL.se, NAUTICAL CHANNEL SE" title="(?=NAUTICAL(\s*CHANNEL)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="NFL NETWORK HD, NFL NETWORK HD.se, NFL NETWORK HD SE" title="(?=NFL(\s*NETWORK)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="NHK WORLD EUROPE SE" Title="(?=NHK(\s*WORLD)?(\s*EUROPE)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="NICK JR. HD, NICK JR. HD.se, NICK JR. HD SE" title="(?=NICK(\s*JR.|JR)(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="NICK JR., NICK JR..se, NICK JR. SE" title="(?=NICK(\s*JR.|JR)\s*SE$)" strm=""/>
 	<channel id="NICKELODEON HD, NICKELODEON HD.se, NICKELODEON HD SE" title="(?=NICKELODEON(\s*(HD|UHD))\s*SE$)" strm=""/>
@@ -105,12 +119,22 @@
 	<channel id="OUTTV, OUTTV.se, OUTTV SE" title="(?=OUT(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="PARAMOUNT NETWORK HD, PARAMOUNT NETWORK HD.se, PARAMOUNT NETWORK HD SE" title="(?=PARAMOUNT(\s*NETWORK)?(\s*CHANNEL)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="PARAMOUNT NETWORK, PARAMOUNT NETWORK.se, PARAMOUNT NETWORK SE" title="(?=PARAMOUNT(\s*NETWORK)?(\s*CHANNEL)?\s*SE$)" strm=""/>
-	<channel id="PINK PLUS, PINK PLUS.se, PINK PLUS SE" title="(?=PINK(\s*PLUS)(\s*(HD|UHD))?\s*EX(\s*|-)YU$)" strm=""/>
+	<channel id="PARAMOUNT+ MOVIES SE" title="(?=PARAMOUNT((\s*)?\+|PLUS)?\s*MOVIES(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="PARAMOUNT+ SERIES SE" title="(?=PARAMOUNT((\s*)?\+|PLUS)?\s*SERIES(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="PINK PLUS, PINK PLUS.se, PINK PLUS SE" title="(?=PINK((\s*)\+|PLUS)?(\s*(HD|UHD))?\s*EX(\s*|-)YU$)" strm=""/>
 	<channel id="SF-KANALEN, SF-KANALEN.se, SF-KANALEN SE" title="(?=SF(\s*|\-)?KANALEN(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SJUAN HD, SJUAN HD.se, SJUAN HD SE" title="(?=SJUAN(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="SJUAN, SJUAN.se, SJUAN SE" title="(?=SJUAN\s*SE$)" strm=""/>
 	<channel id="SKY NEWS, SKY NEWS.se, SKY NEWS SE" title="(?=SKY\s*NEWS(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY 2 SE" title="(?=SPORTBLADET\s*PLAY\s*2(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY 3 SE" title="(?=SPORTBLADET\s*PLAY\s*3(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY 4 SE" title="(?=SPORTBLADET\s*PLAY\s*4(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY 5 SE" title="(?=SPORTBLADET\s*PLAY\s*5(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY 6 SE" title="(?=SPORTBLADET\s*PLAY\s*6(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY 7 SE" title="(?=SPORTBLADET\s*PLAY\s*7(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="SPORTBLADET PLAY SE" title="(?=Sportbladet\s*Play(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SPORTKANALEN, SPORTKANALEN.se, SPORTKANALEN SE" title="(?=SPORT\s*KANALEN(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="STRIVE Sport TV SE" title="(?=STRIVE\s*SPORT(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="SVT BARN HD, SVT BARN HD.se, SVT BARN HD SE" title="(?=SVT\s*BARN(E)?(KANALE(N|R))?(\s*\/)?(\s*SVT\s*24)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="SVT BARN, SVT BARN.se, SVT BARN SE" title="(?=SVT\s*BARN(KANALE(N|R))?(\s*\/)?(\s*SVT\s*24)?\s*SE$)" strm=""/>
 	<channel id="SVT1 HD, SVT1 HD.se, SVT1 HD SE" title="(?=SVT(\s*1)?(\s*(HD|UHD))\s*SE$)" strm=""/>
@@ -151,15 +175,22 @@
 	<channel id="V FILM FAMILY HD, V FILM FAMILY HD.se, V FILM FAMILY HD SE" title="(?=(V|VIASAT)\s*FILM\s*FAMIL(L)?Y(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V FILM HITS HD, V FILM HITS HD.se, V FILM HITS HD SE" title="(?=(V|VIASAT)\s*FILM\s*HITS(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V FILM PREMIERE HD, V FILM PREMIERE HD.se, V FILM PREMIERE HD SE" title="(?=(V|VIASAT)\s*FILM\s*PREMIERE(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="V, RIES HD, V.se, RIES HD.se, V SERIES HD SE" title="(?=(V|VIASAT)\s*SERIES(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V SPORT 1, V SPORT 1.se, V SPORT 1 SE" title="(?=(V|VIASAT)\s*SPORT(\s*1)?(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT EXTRA HD, V SPORT EXTRA HD.se, V SPORT EXTRA HD SE" title="(?=((V|VIASAT)\s*SPORT(\s*1)?\s*EXTRA|TV\s*3\s*SPORT)(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT FOOTBALL HD, V SPORT FOOTBALL HD.se, V SPORT FOOTBALL HD SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*(FOOTBALL|FOTBOLL|FOTBALL)(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT GOLF HD, V SPORT GOLF HD.se, V SPORT GOLF HD SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*GOLF(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT HOCKEY HD, V SPORT HOCKEY HD.se, V SPORT HOCKEY HD SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*HOCKEY(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
+	<channel id="V SPORT LIVE 1 SE" title="(?=V SPORT LIVE(\s*1)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V SPORT LIVE 2 SE" title="(?=V SPORT LIVE\s*2(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V SPORT LIVE 3 SE" title="(?=V SPORT LIVE\s*3(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V SPORT LIVE 4 SE" title="(?=V SPORT LIVE\s*4(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V SPORT LIVE 5 SE" title="(?=V SPORT LIVE\s*5(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="V SPORT MOTOR, V SPORT MOTOR.se, V SPORT MOTOR SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*MOTOR(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT PREMIUM, V SPORT PREMIUM.se, V SPORT PREMIUM SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*PREMIUM(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
 	<channel id="V SPORT ULTRA HD, V SPORT ULTRA HD.se, V SPORT ULTRA HD SE" title="(?=(V|VIASAT)(\s*SPORT)?\s*ULTRA(\s*(HD|UHD))?(\s*SPORTS)?\s*SE$)" strm=""/>
+	<channel id="V SPORT VINTER SE" title="(?=V SPORT LIVE\s*VINTER(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V SERIES HD, V SERIES HD.se, V SERIES HD SE" title="(?=(V|VIASAT)\s*SERIES(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="V4 SE" title="(?=V4(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="VIASAT EXPLORE, VIASAT EXPLORE.se, VIASAT EXPLORE SE" title="(?=(V|VIASAT)\s*EXPLORE(R)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="VIASAT HISTORY, VIASAT HISTORY.se, VIASAT HISTORY SE" title="(?=(V|VIASAT)\s*HISTORY(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="VIASAT NATURE, VIASAT NATURE.se, VIASAT NATURE SE" title="(?=(V|VIASAT)\s*NATURE(\s*CRIME)?(\s*NATURE/CRIME/PLAYBOY)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
