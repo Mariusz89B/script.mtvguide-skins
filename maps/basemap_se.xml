@@ -60,7 +60,7 @@
 	<channel id="DR2, DR2.se, DR2 SE" title="(?=DR\s*2(\s*(HD|UHD))?\s*DK$)" strm=""/>
 	<channel id="E!, E!.se, E! SE" title="(?=(E(!)?\s*|ENTERTAINMENT)(ENTERTAINMENT)?(\s*TV)?(\s*HD)?\s*SE$)" strm=""/>
 	<channel id="ESPORTS TV, ESPORTS TV.se, ESPORTS TV SE" title="(?=ESPORT(S)?(\s*TV)?(\s*(HD|UHD))?\s*SE$)" strm=""/>
-	<channel id="ESPORTSONE SE" title="(?=ESPORTS(ONE|\s*1)(\s*(HD|UHD))?\s*SE$)" strm=""/>
+	<channel id="ESPORTSONE SE" title="(?=ESPORT(S)?((\s*)?ONE|\s*1)(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="EURONEWS, EURONEWS.se, EURONEWS SE" title="(?=EURONEWS(\s*(HD|UHD))?\s*SE$)" strm=""/>
 	<channel id="EUROSPORT 1 HD, EUROSPORT 1 HD.se, EUROSPORT 1 HD SE"	title="(?=EURO\s*SPORT(\s*1)?(\s*(HD|UHD))\s*SE$)" strm=""/>
 	<channel id="EUROSPORT 1, EUROSPORT 1.se, EUROSPORT 1 SE" title="(?=EURO\s*SPORT(\s*1)?\s*SE$)" strm=""/>
